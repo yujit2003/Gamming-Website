@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="../static/logo.png", alt="", srcset="")
+                li #[a(href="/") Home]
+                li #[a(href="/") Log in]
+                li #[a(href="/") Class Schedule]
+                li #[a(href="/contact") Contact Us]
+        
+    section#introSection
+        div   Welcome To Yujit's Gamming Website 
+        div.small   Eat Sleep Play Repeat
+        
+
+    section#GammingGadgets
+        h2 Gamming Gadgets
+        div.card-box
+            div.card
+                h3 Gamming Console
+                div.card-img
+                    img(src="/static/console.png")
+
+            div.card
+                h3 PCs
+                div.card-img
+                    img(src="/static/pc.png")
+
+            div.card
+                h3 Headphone
+                div.card-img
+                    img(src="/static/headphone.png")
+    
+    
+    section#sponserSection
+        h1 Our Sponsers  
+        div.sponsers
+            img(src="../static/logo1.png", alt="", srcset="")
+            img(src="../static/logo2.png", alt="", srcset="")
+            img(src="../static/logo3.png", alt="", srcset="")
+            img(src="../static/logo4.png", alt="", srcset="")
+
+    section#Footer
+         section    © Copyright 2022 https://www.yujityadavsite.com
+
+    script
+        include ../static/script.js 

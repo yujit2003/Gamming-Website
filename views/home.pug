@@ -1,0 +1,46 @@
+extends base.pug
+
+block script
+    script
+        include ../static/script.js
+
+block style 
+    style 
+            include ../static/style.css
+
+block content
+   
+    section#introSection
+        div   Welcome To Yujit's Gamming Website 
+        div.small   Eat Sleep Play Repeat
+        
+
+    section#GammingGadgets
+        h2 Gamming Gadgets
+        div.card-box
+            div.card
+                h3 Gamming Console
+                div.card-img
+                    img(src="/static/console.png")
+
+            div.card
+                h3 PCs
+                div.card-img
+                    img(src="/static/pc.png")
+
+            div.card
+                h3 Headphone
+                div.card-img
+                    img(src="/static/headphone.png")
+    
+    
+    section#sponserSection
+        h1 Our Sponsers  
+        div.sponsers
+            img(src="../static/logo1.png", alt="", srcset="")
+            img(src="../static/logo2.png", alt="", srcset="")
+            img(src="../static/logo3.png", alt="", srcset="")
+            img(src="../static/logo4.png", alt="", srcset="")
+
+    section#Footer
+         section    © Copyright 2022 https://www.yujityadavsite.com
